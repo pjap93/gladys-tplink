@@ -1,0 +1,14 @@
+{
+  "name": "gladys-tplink",
+  "version": "0.1.0",
+  "description": "Gladys hooks for controlling TP-LINK.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "J@P",
+  "license": "CC-BY-NC-SA-3.0",
+  "dependencies": {
+    "tplink-lightbulb": "^1.1.6"
+  }
+}
