@@ -5,6 +5,6 @@ module.exports = function(sails) {
     
     return {
         setup: setup,
-	    exec: exec
+	exec: exec
         };
 };
