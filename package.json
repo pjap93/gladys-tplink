@@ -9,6 +9,6 @@
   "author": "J@P",
   "license": "CC-BY-NC-SA-3.0",
   "dependencies": {
-    "tplink-lightbulb": "^1.1.6"
+    "tplink-lightbulb": "^1.1.7"
   }
 }
