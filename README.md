@@ -17,3 +17,18 @@ Développé sur Gladys version 3.6.1
 - Dans le menu Modules dans Gladys, lancer l'importation en cliquant sur Configurer du module TP-LINK précédemment installer.
 - Une fois terminée, allé dans le menu Devices pour configurer vos nouveaux accessoires (pièce, tag et catégorie).
 
+## Utilisation dans un script
+<code>
+var option = {
+   'ip': '192.168.0.19',
+   'port': '9999',
+	 'on_off': 0,
+	 'hue': 237,
+	 'saturation': 93,
+	 'color_temp': 0,
+	 'brightness': 100,
+	 'transition_period': 0
+};
+
+gladys.modules.tplink.sendLB(option);
+</code>
