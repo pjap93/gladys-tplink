@@ -18,7 +18,7 @@ Développé sur Gladys version 3.6.1
 - Une fois terminée, allé dans le menu Devices pour configurer vos nouveaux accessoires (pièce, tag et catégorie).
 
 ## Utilisation dans un script
-<code>
+```javascript
 var option = {
 
  'ip': '192.168.0.19',
@@ -40,4 +40,4 @@ var option = {
 };
 
 gladys.modules.tplink.sendLB(option);
-</code>
+```
