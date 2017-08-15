@@ -3,12 +3,22 @@
   "version": "0.1.2",
   "description": "Gladys hooks for controlling TP-LINK.",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pjap93/gladys-tplink"
   },
   "author": "J@P",
   "license": "CC-BY-NC-SA-3.0",
   "dependencies": {
-    "tplink-lightbulb": "^1.1.7"
+    "tplink-lightbulb": "^1.1.7",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^2.2.0",
+    "mocha": "^2.5.3"
   }
 }
