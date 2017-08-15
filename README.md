@@ -1,4 +1,4 @@
-# Gladys TP-LINK 
+﻿# Gladys TP-LINK 
 
 Lampes : LB110,LB120,LB130
 
@@ -22,6 +22,7 @@ Développé sur Gladys version 3.6.1
 var option = {
     'ip': '192.168.0.19',
     'port': '9999',
+    'id': 'n° du devicetype',
     'on_off': 0,
     'hue': 237,
     'saturation': 93,
@@ -31,4 +32,15 @@ var option = {
 };
 
 gladys.modules.tplink.sendLB(option);
+```
+
+```javascript
+var option = {
+    'ip': '192.168.0.19',
+    'port': '9999',
+    'id': 'n° du devicetype',
+    'on_off': 0,
+};
+
+gladys.modules.tplink.sendHS(option);
 ```
