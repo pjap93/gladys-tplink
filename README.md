@@ -12,9 +12,13 @@ Développé sur Gladys version 3.6.1
 - Installer le module dans Gladys à l'aide du menu avancé (Nom, Version, URL Git, et slug) 
 
 Exemple : 
+
     Nom: TP-Link,
-    Version: 0.1.2, 
-    URL Git: https://github.com/pjap93/gladys-tplink, 
+	
+    Version: 0.1.2,
+	
+    URL Git: https://github.com/pjap93/gladys-tplink,
+	
     Slug: tplink
     
 -	Redémarrer Gladys
