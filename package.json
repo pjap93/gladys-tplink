@@ -13,6 +13,7 @@
   "author": "J@P",
   "license": "CC-BY-NC-SA-3.0",
   "dependencies": {
-    "tplink-lightbulb": "^1.1.7"
+    "tplink-lightbulb": "^1.1.7",
+    "hs100-api": "^0.10.1"
   }
 }
