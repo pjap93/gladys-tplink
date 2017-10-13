@@ -5,6 +5,8 @@ module.exports = function(sails) {
     var sendLB = require('./lib/sendLB.js');
     var sendHS = require('./lib/sendHS.js');
     var init = require('./lib/init.js');
+    var install = require('./lib/install.js');
+    var uninstall = require('./lib/uninstall.js');
     var getConsumption = require('./lib/getConsumption.js');
 
     gladys.on('ready', function(){
@@ -13,6 +15,8 @@ module.exports = function(sails) {
 
     return {
         setup: setup,
+        install: install,
+        uninstall: uninstall,
 	exec: exec,
 	sendLB: sendLB,
 	sendHS: sendHS,

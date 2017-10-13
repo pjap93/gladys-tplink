@@ -15,7 +15,7 @@ Exemple :
 
     Nom: TP-Link,
 	
-    Version: 0.1.2,
+    Version: 0.1.5,
 	
     URL Git: https://github.com/pjap93/gladys-tplink,
 	
@@ -35,13 +35,12 @@ Exemple :
 - Pour la commande de la lampe (ex: LB130)
 ```javascript
 var option = {
-    'ip': '192.168.0.19',
-    'port': '9999',
-    'id': 'n° du devicetype',
-    'on_off': 1,
-    'hue': 237,
-    'saturation': 93,
-    'color_temp': 0,
+    'id': 'n° du device',
+    'on_off': 1,                 //variable obligatoire
+    'hue': 237,                  //valeur optionnel
+    'saturation': 93,            //valeur optionnel
+    'color_temp': 0,             //valeur optionnel
+    'color': 'blue',             //valeur prioritaire sur les variables 'hue' et 'saturation'
     'brightness': 100,
     'transition_period': 0
 };
@@ -49,11 +48,20 @@ var option = {
 gladys.modules.tplink.sendLB(option);
 ```
 
+- Liste pour la variable 'color'
+```
+	blue,
+	cyan,
+	magenta,
+	white,
+	red,
+	lime,
+	yellow
+```
+
 - Pour la commande de la prise (ex: HS110)
 ```javascript
 var option = {
-    'ip': '192.168.0.19',
-    'port': '9999',
     'id': 'n° du devicetype',
     'on_off': 0,
 };
