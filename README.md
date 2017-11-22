@@ -25,14 +25,14 @@ Exemple :
 
 ## Importer les produits
 
-- Attention dans cette phase les produits doivents être tous sous tension avant de lancer la suite des étapes
+- < Attention dans cette phase les produits doivents être tous sous tension avant de lancer la suite des étapes >
 
 - Dans le menu Modules dans Gladys, lancer l'importation en cliquant sur Configurer du module TP-LINK précédemment installer.
 - Une fois terminée, allé dans le menu Devices pour configurer vos nouveaux accessoires (pièce, tag et catégorie).
 - Réaliser ensuite vos différents scénarios pour vos produits.
 
--> Possibilité de pouvoir commander chaque paramètre (intensité, couleur, on/off) par l'interface des Devices.
--> Possibilité de pouvoir les piloter par un scénario.
+- > Possibilité de pouvoir commander chaque paramètre (intensité, couleur, on/off) par l'interface des Devices.
+- > Possibilité de pouvoir les piloter par un scénario.
 
 ## Utilisation dans un script
 
