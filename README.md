@@ -13,7 +13,7 @@ Développé sur Gladys version 3.6.1
 
 Exemple : 
 
-    Nom: TP-Link,
+    Nom: TP-Link
 	
     Version: 0.1.5
 	
@@ -25,10 +25,14 @@ Exemple :
 
 ## Importer les produits
 
+- Attention dans cette phase les produits doivents être tous sous tension avant de lancer la suite des étapes
+
 - Dans le menu Modules dans Gladys, lancer l'importation en cliquant sur Configurer du module TP-LINK précédemment installer.
 - Une fois terminée, allé dans le menu Devices pour configurer vos nouveaux accessoires (pièce, tag et catégorie).
 - Réaliser ensuite vos différents scénarios pour vos produits.
-- Possibilité de pouvoir commander chaque paramètre (intensité, couleur, on/off) par l'interface des Devices.
+
+-> Possibilité de pouvoir commander chaque paramètre (intensité, couleur, on/off) par l'interface des Devices.
+-> Possibilité de pouvoir les piloter par un scénario.
 
 ## Utilisation dans un script
 
@@ -36,19 +40,19 @@ Exemple :
 ```javascript
 var option = {
     'id': 'n° du device',
-    'on_off': 1,                 //variable obligatoire
+    'on_off': 1,                 //variable obligatoire 0 ou 1
     'hue': 237,                  //valeur optionnel
     'saturation': 93,            //valeur optionnel
     'color_temp': 0,             //valeur optionnel
-    'color': 'blue',             //valeur prioritaire sur les variables 'hue' et 'saturation'
-    'brightness': 100,
+    'color': 'blue',             //valeur prioritaire sur les variables 'hue' et 'saturation' (uniquement pour les LB130)
+    'brightness': 100,           //valeur de l'intensité de la lumière
     'transition_period': 0
 };
  
 gladys.modules.tplink.sendLB(option);
 ```
 
-- Liste pour la variable 'color'
+- Liste pour la variable 'color' avec les paramètres déjà définis
 ```
 	blue,
 	cyan,
@@ -62,7 +66,7 @@ gladys.modules.tplink.sendLB(option);
 - Pour la commande de la prise (ex: HS110)
 ```javascript
 var option = {
-    'id': 'n° du devicetype',
+    'id': 'n° du device',
     'on_off': 0,
 };
 
