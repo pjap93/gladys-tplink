@@ -25,7 +25,7 @@ Exemple :
 
 ## Importer les produits
 
-- < Attention dans cette phase les produits doivents être tous sous tension avant de lancer la suite des étapes >
+- < <b>Attention dans cette phase les produits doivents être tous sous tension avant de lancer la suite des étapes</b> >
 
 - Dans le menu Modules dans Gladys, lancer l'importation en cliquant sur Configurer du module TP-LINK précédemment installer.
 - Une fois terminée, allé dans le menu Devices pour configurer vos nouveaux accessoires (pièce, tag et catégorie).
