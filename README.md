@@ -67,7 +67,7 @@ gladys.modules.tplink.sendLB(option);
 ```javascript
 var option = {
     'id': 'n° du device',
-    'on_off': 0,
+    'on_off': 0
 };
 
 gladys.modules.tplink.sendHS(option);
