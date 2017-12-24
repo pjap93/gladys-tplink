@@ -33,6 +33,7 @@ Exemple :
 
 - > Possibilité de pouvoir commander chaque paramètre (intensité, couleur, on/off) par l'interface des Devices.
 - > Possibilité de pouvoir les piloter par un scénario.
+- > Possibilité de piloter par script
 
 ## Utilisation dans un script
 
