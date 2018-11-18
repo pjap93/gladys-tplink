@@ -15,7 +15,7 @@ Exemple :
 
     Nom: TP-Link
 	
-    Version: 0.1.5
+    Version: 0.1.6
 	
     URL Git: https://github.com/pjap93/gladys-tplink
 	
