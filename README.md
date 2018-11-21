@@ -2,7 +2,7 @@
 
 Lampes : LB110,LB120,LB130
 
-Prise  : HS110
+Prise  : HS110, HS100
 
 Développé sur Gladys version 3.6.1
 
