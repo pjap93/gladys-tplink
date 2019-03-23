@@ -1,5 +1,12 @@
 ﻿# Gladys TP-LINK 
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![GitHub release](https://img.shields.io/github/release/pjap93/gladys-tplink.svg)
+[![Build Status](https://travis-ci.org/pjap93/gladys-tplink.svg?branch=master)](https://travis-ci.org/pjap93/gladys-tplink)
+
+
+## Matériel
+
 Lampes : LB110,LB120,LB130
 
 Prise  : HS110, HS100
